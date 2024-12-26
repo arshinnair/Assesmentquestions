@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/pass">
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Total Score: 0"
+            android:textSize="24sp"
+            android:textColor="@color/Purple"
+            android:textAlignment="center"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resultTextView"
+            android:layout_marginTop="32dp"
+            android:text="Description:"
+            android:textAlignment="center"
+            android:layout_marginLeft="55dp"
+
+            android:textColor="@color/Dark_Blue"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="372dp"
+            android:layout_height="411dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/resultimg" />
+
+</RelativeLayout>
